@@ -1,6 +1,6 @@
 layout {
     pane
     pane size=1 borderless=true {
-        plugin location="file:/Users/mauroanastacio/.local/share/zellij/plugins/mono-bar.wasm"
+        plugin location="file:/Users/mauroanastacio/.local/share/zellij/plugins/zimple-bar.wasm"
     }
 }

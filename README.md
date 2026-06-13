@@ -18,13 +18,28 @@ Made with love for the Zellij community.
 - Dynamic keybinding hints per mode
 - No background, no colors — plays nice with any terminal theme
 
+## Build
+
+**Requirements:** Rust and the `wasm32-wasip1` target.
+
+```bash
+rustup target add wasm32-wasip1
+```
+
+**Compile and install:**
+
+```bash
+cargo build --release
+cp target/wasm32-wasip1/release/zimple-bar.wasm ~/.local/share/zellij/plugins/zimple-bar.wasm
+```
+
 ## Usage
 
 ```kdl
 layout {
     pane borderless=true
     pane size=1 borderless=true {
-        plugin location="file:/path/to/zimple-bar.wasm"
+        plugin location="file:~/.local/share/zellij/plugins/zimple-bar.wasm"
     }
 }
 \```

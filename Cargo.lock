@@ -1247,14 +1247,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9bb517913cfcfb9eeda59f36020269075a152701a01606c612f547e4890be399"
 
 [[package]]
-name = "mono-bar"
-version = "0.1.0"
-dependencies = [
- "unicode-width",
- "zellij-tile",
-]
-
-[[package]]
 name = "names"
 version = "0.14.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2869,6 +2861,14 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn 2.0.117",
+]
+
+[[package]]
+name = "zimple-bar"
+version = "0.1.0"
+dependencies = [
+ "unicode-width",
+ "zellij-tile",
 ]
 
 [[package]]
