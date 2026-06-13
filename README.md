@@ -10,7 +10,7 @@ You can learn more about creating plugins in the [Zellij documentation](https://
 
 Made with love for the Zellij community.
 
-![zimple-bar preview](sample.jpg)
+![zimple-bar preview](./sample.png)
 
 ## Features
 
