@@ -39,7 +39,7 @@ cp target/wasm32-wasip1/release/zimple-bar.wasm ~/.local/share/zellij/plugins/zi
 layout {
     pane borderless=true
     pane size=1 borderless=true {
-        plugin location="file:~/.local/share/zellij/plugins/zimple-bar.wasm"
+        plugin location="file:/your_pc/.local/share/zellij/plugins/zimple-bar.wasm"
     }
 }
 \```
